@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Form, Button } from 'react-bootstrap';
 
 class ClapGenerator extends Component {
 	constructor(props) {
@@ -24,16 +23,17 @@ class ClapGenerator extends Component {
 
 	render() {
 		return (
-			<Form>
-				<Form.Group controlId="InputText.ControlTextarea">
-					<Form.Label />
-					<Form.Control as="textarea" rows="5" onChange={this.onInputChange} id='input-text' placeholder='Put your text here!'/>
-				</Form.Group>
-				<Button variant="primary" onClick={this.onSubmitInput}>
-					CLAP<span role='img' aria-label='clap'>👏</span>IT<span role='img' aria-label='clap'>👏</span>
-				</Button>
-                <Form.Control as="textarea" rows="5" id='output-text' placeholder='Output' value={this.state.outputText}/>
-			</Form>
+			<div>Test</div>
+			// <Form>
+			// 	<Form.Group controlId="InputText.ControlTextarea">
+			// 		<Form.Label />
+			// 		<Form.Control as="textarea" rows="5" onChange={this.onInputChange} id='input-text' placeholder='Put your text here!'/>
+			// 	</Form.Group>
+			// 	<Button variant="primary" onClick={this.onSubmitInput}>
+			// 		CLAP<span role='img' aria-label='clap'>👏</span>IT<span role='img' aria-label='clap'>👏</span>
+			// 	</Button>
+            //     <Form.Control as="textarea" rows="5" id='output-text' placeholder='Output' value={this.state.outputText}/>
+			// </Form>
 		);
 	}
 }

@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component, ReactDOM, mountNode } from 'react';
 import ClapGenerator from './components/ClapGenerator/ClapGenerator';
-import 'bootstrap/dist/css/bootstrap.css';
+import Button from 'antd/es/button';
 import './App.css';
+import 'antd/dist/antd.css';
 
 class App extends Component {
 	constructor(props) {
@@ -12,9 +13,10 @@ class App extends Component {
 	}
 	render() {
 		return (
-      <div id='main'>
-        <ClapGenerator />
-      </div>
+			<div id="main">
+				<Button type="primary">Button</Button>
+				{/* <ClapGenerator /> */}
+			</div>
 		);
 	}
 }
