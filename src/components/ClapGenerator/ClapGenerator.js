@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Input } from 'antd';
+
+const { TextArea } = Input;
 
 class ClapGenerator extends Component {
 	constructor(props) {
@@ -23,7 +26,7 @@ class ClapGenerator extends Component {
 
 	render() {
 		return (
-			<div>Test</div>
+			<TextArea rows={4}/>
 			// <Form>
 			// 	<Form.Group controlId="InputText.ControlTextarea">
 			// 		<Form.Label />

@@ -14,8 +14,8 @@ class App extends Component {
 	render() {
 		return (
 			<div id="main">
-				<Button type="primary">Button</Button>
-				{/* <ClapGenerator /> */}
+				{/* <Button type="primary">Button</Button> */}
+				<ClapGenerator />
 			</div>
 		);
 	}
